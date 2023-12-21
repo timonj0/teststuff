@@ -1,0 +1,25 @@
+a {
+    text-align: center;
+    font-size: 36px;
+    /* Increased font size to make it larger */
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    /* Changed font to a nice font */
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+
+    /* Remove link color and underline */
+    color: inherit;
+    text-decoration: none;
+
+    /* Put everything to the center of the page */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Add a transition on hover */
+    transition: 0.2s ease;
+
+
+}
